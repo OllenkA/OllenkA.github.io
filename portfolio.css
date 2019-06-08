@@ -1,0 +1,99 @@
+body {
+    background-image: url(Nastya_red.jpg);
+    
+}
+header, footer {
+    border: 7px solid #271111;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 15px;
+    opacity: 0.4;
+    height: 50px;
+    box-shadow: 25px 25px 5px #271111;
+    float: left;
+    width: 95%;
+    
+}
+
+header {
+    font-size: 45px;
+    font-weight: 800;
+}
+header:hover {
+    background-color: black;
+    color: white;
+}
+a:visited {color: red;}  
+a:hover {color: #ffffff;}  
+   
+
+article {
+    transition: 3s all;
+    background-image: url("Nastya_sad.jpg");
+    border: 7px solid #271111;
+    border-radius: 50px;
+    width: 53%;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+article:hover {
+    transform: scale(0.3);
+}
+aside {
+    border: 7px solid #271111;
+    border-radius: 50px;
+    width: 35%;
+    float: right;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: 400;
+   
+}
+footer:hover {
+    color: red;
+    font-weight: 900;
+
+}
+summary {
+    font-weight: 800;
+    font-size: 35px;
+}
+summary:hover {
+    color: red;
+    font-weight: 900;
+
+}
+
+details {
+    font-weight: 600;
+    font-size: 20px;
+}
+details:hover {
+    color: white;
+    font-size: 30px;
+}
+.mail {
+    color: black;
+}
+.mail:hover {
+    color: red;
+}
+
+
